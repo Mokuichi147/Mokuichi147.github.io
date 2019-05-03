@@ -39,9 +39,9 @@ body {
 
 #title-circle {
     margin: auto;
-    padding: 15vmin 0vmin;
-    width: 50vmin;
-    height: 20vmin;
+    padding: 30vmin 0vmin;
+    width: 70vmin;
+    height: 10vmin;
     border-radius: 50%;
     background-color: var(--main);
 }
