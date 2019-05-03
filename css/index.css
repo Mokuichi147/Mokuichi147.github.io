@@ -32,17 +32,18 @@ body {
 }
 
 #title {
-    height: 100%;
-    padding-top: 50vh;
+    height: 100vh;
+    padding-top: 45vh;
+    padding-bottom: 45vh;
 }
 
 .main-center {
     text-align: center;
-    font-size: 10vmin;
+    font-size: 8vmin;
 }
 .sub-center {
     text-align: center;
-    font-size: 5vmin;
+    font-size: 2vmin;
     color: var(--gray);
 }
 
