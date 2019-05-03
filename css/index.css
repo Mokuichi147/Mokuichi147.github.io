@@ -32,7 +32,7 @@ body {
 }
 
 #title {
-    height: 100vh;
+    height: 100%;
     padding-top: 45vh;
     padding-bottom: 45vh;
 }
