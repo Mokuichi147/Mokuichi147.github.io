@@ -31,6 +31,10 @@ body {
     }
 }
 
+#title {
+    padding: 50%;
+}
+
 .main-center {
     text-align: center;
     font-size: 48px;
