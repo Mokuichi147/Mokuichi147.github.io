@@ -37,8 +37,10 @@ body {
     padding-bottom: 45vh;
 }
 
-#title-box {
-    padding: 10vmin;
+#title-circle {
+    width: 10vmin;
+    height: 10vmin;
+    border-radius: 50%;
     background-color: var(--main);
 }
 
