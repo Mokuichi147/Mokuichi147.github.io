@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p:700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC:700');
 
 :root {
     --white: #F0F0F0;
@@ -14,7 +14,7 @@ body {
     color: var(--black);
     margin: 0px;
     padding: 0px;
-    font-family: 'M PLUS 1p', sans-serif;
+    font-family: 'Noto Sans SC', sans-serif;
     font-weight: bold;
     font-size: 28px;
 }
