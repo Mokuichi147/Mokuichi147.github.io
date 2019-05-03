@@ -38,8 +38,9 @@ body {
 }
 
 #title-circle {
-    width: 10vmin;
-    height: 10vmin;
+    padding: 30vmin;
+    width: 70vmin;
+    height: 70vmin;
     border-radius: 50%;
     background-color: var(--main);
 }
