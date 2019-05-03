@@ -33,14 +33,15 @@ body {
 
 #title {
     height: 100%;
-    padding-top: 45vh;
-    padding-bottom: 45vh;
+    padding-top: 35vh;
+    padding-bottom: 35vh;
 }
 
 #title-circle {
     margin: auto;
-    width: 30vmin;
-    height: 30vmin;
+    padding: 30vmin;
+    width: 70vmin;
+    height: 70vmin;
     border-radius: 50%;
     background-color: var(--main);
 }
