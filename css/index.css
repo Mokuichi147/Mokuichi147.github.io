@@ -3,8 +3,8 @@
 
 :root {
     --white: #F0F0F0;
-    --gray: #888888;
     --black: #1A1A1A;
+    --gray: #888888;
     --main: #6b7d27;
     --accent: #ee4b22;
 }
@@ -35,6 +35,11 @@ body {
     height: 100%;
     padding-top: 45vh;
     padding-bottom: 45vh;
+}
+
+#title-box {
+    padding: 10vmin;
+    background-color: var(--main);
 }
 
 .main-center {
