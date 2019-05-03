@@ -10,8 +10,8 @@
 }
 
 body {
-    background-color: #F0F0F0;
-    color: #1A1A1A;
+    background-color: var(--white);
+    color: var(--black);
     margin: 0px;
     padding: 0px;
     font-family: 'M PLUS 1p', sans-serif;
