@@ -20,3 +20,7 @@ body {
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: bold;
 }
+
+.center {
+    text-align: center;
+}
