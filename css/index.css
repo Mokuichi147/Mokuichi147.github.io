@@ -38,7 +38,7 @@ body {
 }
 
 #title-circle {
-    padding: 15vmin;
+    display: inline-block;
     width: 30vmin;
     height: 30vmin;
     border-radius: 50%;
