@@ -46,6 +46,10 @@ body {
     background-color: var(--main);
 }
 
+.auto-margin {
+    margin: auto;
+}
+
 .main-center {
     text-align: center;
     font-size: 8vmin;
