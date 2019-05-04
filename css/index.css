@@ -2,33 +2,33 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC:700');
 
 :root {
-    --white: #F0F0F0;
-    --black: #1A1A1A;
+    --back: #F0F0F0;
+    --text: #1A1A1A;
     --gray: #b6b6b6;
     --main: #6b7d27;
     --accent: #ee4b22;
 }
+@media (prefers-color-scheme: light) {
+    :root {
+        --back: #F0F0F0;
+        --text: #1A1A1A;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --back: #1A1A1A;
+        --text: #F0F0F0;
+    }
+}
 
 body {
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--back);
+    color: var(--text);
     margin: 0px;
     padding: 0px;
     font-family: 'Noto Sans SC', sans-serif;
     font-weight: bold;
     font-size: 28px;
-}
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: var(--white);
-        color: var(--black);
-    }
-}
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: var(--black);
-        color: var(--white);
-    }
 }
 
 @keyframes title-circle-scale {
@@ -43,14 +43,21 @@ body {
     padding-top: 25vh;
     padding-bottom: 40vh;
 }
-#title-circle {
+#title-circle-anim {
     margin: auto;
-    padding: 27.5vmin 0vmin;
     width: 70vmin;
     height: 15vmin;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--main) 50%, var(--accent) 50%);
     animation: title-circle-scale 3s ease-in-out 0s 1 normal forwards running;
+}
+#title-circle {
+    margin: auto;
+    padding: 22.5vmin 0vmin;
+    width: 60vmin;
+    height: 15vmin;
+    border-radius: 50%;
+    background-color: var(--back);
 }
 
 .main-center {
