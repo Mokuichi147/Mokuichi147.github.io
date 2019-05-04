@@ -87,14 +87,14 @@ body {
 #title-main-text {
     text-align: center;
     font-size: 8vmin;
-    animation: title-text-rotate 1s ease-in-out 3.5s 1 normal forwards running,
+    animation: title-text-rotate 1s linear 3.5s 1 normal forwards running,
                 title-text-fadein 4.5s ease-in-out 0s 1 normal forwards running;
 }
 #title-sub-text {
     text-align: center;
     font-size: 2vmin;
     color: var(--gray);
-    animation: title-text-rotate 1s ease-in-out 3.5s 1 normal forwards running,
+    animation: title-text-rotate 1s linear 3.5s 1 normal forwards running,
                 title-text-fadein 4.5s ease-in-out 0s 1 normal forwards running;
 }
 
