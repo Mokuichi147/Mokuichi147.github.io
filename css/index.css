@@ -38,7 +38,7 @@ body {
     100% { transform: scale(1, 1); }
 }
 @keyframes title-circle-translate {
-    100% { transform: translate(0vmin, 5vmin); }
+    100% { transform: translateY(5vmin); }
 }
 
 #title {
@@ -59,6 +59,7 @@ body {
     padding: 22.5vmin 0vmin;
     width: 60vmin;
     height: 15vmin;
+    perspective: 500px;
     border-radius: 50%;
     background-color: var(--back);
     animation: title-circle-translate 0s step-start 0s 1 normal forwards running;
