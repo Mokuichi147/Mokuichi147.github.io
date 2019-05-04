@@ -31,12 +31,16 @@ body {
     }
 }
 
+@keyframes title-center-scale {
+    from { transform: scale(0, 0); }
+    to { transform: scale(1, 1); }
+}
+
 #title {
     height: 100%;
     padding-top: 25vh;
     padding-bottom: 40vh;
 }
-
 #title-circle {
     margin: auto;
     padding: 27.5vmin 0vmin;
@@ -44,6 +48,7 @@ body {
     height: 15vmin;
     border-radius: 50%;
     background-color: var(--main);
+    animation: title-cercle-scale 1s ease-in-out 2s 1 normal forwards running;
 }
 
 .main-center {
