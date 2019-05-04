@@ -75,5 +75,9 @@ body {
 
 @media screen and (min-width: 1025px) {
     /* タブレット横、PC */
-
+    #title {
+        height: 100%;
+        padding-top: 15vh;
+        padding-bottom: 40vh;
+    }
 }
