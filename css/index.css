@@ -45,7 +45,8 @@ body {
 }
 @keyframes title-circle-rotate {
     0% { transform: rotateZ(0deg); }
-    60% { transform: rotateZ(-45deg); }
+    10% { transform: rotateZ(0deg); }
+    80% { transform: rotateZ(-45deg); }
     100% { transform: rotateZ(0deg); }
 }
 #title-circle-anim {
