@@ -49,7 +49,7 @@ body {
     width: 70vmin;
     height: 15vmin;
     border-radius: 50%;
-    background-color: var(--main);
+    background: linear-gradient(90deg, var(--main) 50%, var(--accent) 50%);
     animation: title-circle-scale 3s ease-in-out 0s 1 normal forwards running;
 }
 
