@@ -59,7 +59,6 @@ body {
     padding: 22.5vmin 0vmin;
     width: 60vmin;
     height: 15vmin;
-    perspective: 500px;
     border-radius: 50%;
     background-color: var(--back);
     animation: title-circle-translate 3s step-start 0s 1 normal forwards running;
