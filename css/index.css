@@ -48,7 +48,7 @@ body {
     width: 70vmin;
     height: 70vmin;
     border-radius: 50%;
-    background: linear-gradient(135deg, var(--main) 50%, var(--accent) 50%);
+    background: linear-gradient(135deg, var(--main) 70%, var(--accent) 70%);
     animation: title-circle-scale 3s ease-in-out 0s 1 normal forwards running;
 }
 #title-circle {
