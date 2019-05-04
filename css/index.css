@@ -61,7 +61,8 @@ body {
     height: 15vmin;
     border-radius: 50%;
     background-color: var(--back);
-    animation: title-circle-translate 0s;
+    animation-name: title-circle-translate;
+    animation-fill-mode: forwards;
 }
 
 .main-center {
