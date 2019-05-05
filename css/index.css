@@ -132,6 +132,7 @@ body {
 
 /* SNSリンク */
 #sns-container {
+    width: 60vmin;
     display: flex;
     justify-content: space-between;
 }
@@ -139,29 +140,29 @@ body {
     background-image: var(--Twitter-icon);
     order: 1;
     background-size: contain;
-    width: 10vmin;
-    height: 10vmin;
+    width: 8vmin;
+    height: 8vmin;
 }
 #sns-note {
     background-image: var(--note-icon);
     order: 2;
     background-size: contain;
-    width: 10vmin;
-    height: 10vmin;
+    width: 8vmin;
+    height: 8vmin;
 }
 #sns-github {
     background-image: var(--GitHub-icon);
     order: 3;
     background-size: contain;
-    width: 10vmin;
-    height: 10vmin;
+    width: 8vmin;
+    height: 8vmin;
 }
 #sns-instagram {
     background-image: var(--Instagram-icon);
     order: 4;
     background-size: contain;
-    width: 10vmin;
-    height: 10vmin;
+    width: 8vmin;
+    height: 8vmin;
 }
 
 /* レスポンシブデザイン */
