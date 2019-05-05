@@ -108,6 +108,7 @@ body {
 /* 自己紹介 */
 @keyframes icon-rotate{
     0% { transform: rotateZ(0deg); }
+    90% { transform: rotateZ(0deg); }
     100% { transform: rotateZ(360deg); }
 }
 #icon-image {
@@ -116,7 +117,7 @@ body {
     background-size: contain;
     width: 40vmin;
     height: 40vmin;
-    animation: icon-rotate 1s ease 9s infinite normal forwards running;
+    animation: icon-rotate 10s ease 0s infinite normal forwards running;
 }
 
 /* レスポンシブデザイン */
