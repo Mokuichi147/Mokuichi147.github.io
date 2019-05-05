@@ -37,7 +37,7 @@ body {
 }
 .sub-center {
     text-align: center;
-    font-size: 2vmin;
+    font-size: 5vmin;
     margin: 0px auto;
     width: 80vmin;
     color: var(--gray);
