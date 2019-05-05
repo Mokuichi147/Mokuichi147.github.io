@@ -130,6 +130,29 @@ body {
     animation: icon-rotate 10s ease 0s infinite normal forwards running;
 }
 
+/* SNSリンク */
+#sns-container {
+    width: 80vmin;
+    display: flex;
+    justify-content: space-between;
+}
+#sns-twitter {
+    background-image: var(--Twitter-icon);
+    order: 0;
+}
+#sns-note {
+    background-image: var(--note-icon);
+    order: 1;
+}
+#sns-github {
+    background-image: var(--GitHub-icon);
+    order: 2;
+}
+#sns-instagram {
+    background-image: var(--Instagram-icon);
+    order: 3;
+}
+
 /* レスポンシブデザイン */
 @media screen and (max-width: 500px) {
     /* スマートフォン */
