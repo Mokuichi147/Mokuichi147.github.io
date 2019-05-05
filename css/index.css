@@ -148,8 +148,8 @@ body {
     background-image: var(--note-icon);
     order: 2;
     background-size: contain;
-    width: 8vmin;
-    height: 8vmin;
+    width: 12vmin;
+    height: 12vmin;
 }
 #sns-github {
     background-image: var(--GitHub-icon);
