@@ -107,7 +107,7 @@ body {
 
 /* 自己紹介 */
 #my-image {
-    margin: auto;
+    margin: 5vmin auto;
     background-image: url("../images/2019_Mokuichi.png");
     background-size: contain;
     width: 40vmin;
