@@ -109,6 +109,7 @@ body {
 #my-image {
     margin: auto;
     background-image: url("../images/2019_Mokuichi.png");
+    background-size: contain;
     width: 40vmin;
     height: 40vmin;
 }
