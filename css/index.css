@@ -132,7 +132,6 @@ body {
 
 /* SNSリンク */
 #sns-container {
-    width: 80vmin;
     display: flex;
     justify-content: space-between;
 }
