@@ -133,6 +133,7 @@ body {
 /* SNSリンク */
 #sns-container {
     width: 60vmin;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
 }
