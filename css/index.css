@@ -38,6 +38,7 @@ body {
 .sub-center {
     text-align: center;
     font-size: 2vmin;
+    width: 80vmin;
     color: var(--gray);
 }
 
