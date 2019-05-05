@@ -7,6 +7,10 @@
     --gray: #b6b6b6;
     --main: #6b7d27;
     --accent: #ee4b22;
+    --GitHub-icon: "../images/GitHub_black.png";
+    --Instagram-icon: "../images/Instagram_black.png";
+    --Twitter-icon: "../images/Twitter_black.png";
+    --note-icon: "../images/note_black.png";
 }
 @media (prefers-color-scheme: light) {
     :root {
@@ -18,6 +22,10 @@
     :root {
         --back: #1A1A1A;
         --text: #F0F0F0;
+        --GitHub-icon: "../images/GitHub_white.png";
+        --Instagram-icon: "../images/Instagram_white.png";
+        --Twitter-icon: "../images/Twitter_white.png";
+        --note-icon: "../images/note_white.png";
     }
 }
 
