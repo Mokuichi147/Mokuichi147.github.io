@@ -128,8 +128,8 @@ body {
 
 /* SNSリンク */
 #sns-container {
-    width: 60vmin;
-    margin: 0px auto 20vh;
+    width: 40vmin;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
 }
@@ -137,29 +137,29 @@ body {
     background-image: var(--Twitter-icon);
     order: 1;
     background-size: contain;
-    width: 8vmin;
-    height: 8vmin;
+    width: 6vmin;
+    height: 6vmin;
 }
 #sns-note {
     background-image: var(--note-icon);
     order: 2;
     background-size: contain;
-    width: 8vmin;
-    height: 8vmin;
+    width: 6vmin;
+    height: 6vmin;
 }
 #sns-github {
     background-image: var(--GitHub-icon);
     order: 3;
     background-size: contain;
-    width: 8vmin;
-    height: 8vmin;
+    width: 6vmin;
+    height: 6vmin;
 }
 #sns-instagram {
     background-image: var(--Instagram-icon);
     order: 4;
     background-size: contain;
-    width: 8vmin;
-    height: 8vmin;
+    width: 6vmin;
+    height: 6vmin;
 }
 
 /* レスポンシブデザイン */
