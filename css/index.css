@@ -99,7 +99,7 @@ body {
 }
 #title-main-text {
     text-align: center;
-    font-size: 9vmin;
+    font-size: 10vmin;
     animation: title-text-rotate 0.4s ease 2.8s 1 normal forwards running,
                 title-text-fadein 3.2s ease-in-out 0s 1 normal forwards running;
 }
