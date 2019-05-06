@@ -129,7 +129,7 @@ body {
 /* SNSリンク */
 #sns-container {
     width: 40vmin;
-    margin: 0px auto;
+    margin: 3vmin auto 0vmin;
     display: flex;
     justify-content: space-between;
 }
