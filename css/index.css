@@ -80,9 +80,9 @@ body {
 }
 #title-circle {
     margin: auto;
-    padding: 22.5vmin 0vmin;
+    padding: 20vmin 0vmin;
     width: 60vmin;
-    height: 15vmin;
+    height: 20vmin;
     border-radius: 50%;
     background-color: var(--back);
     transform: translateY(5vmin);
@@ -99,13 +99,13 @@ body {
 }
 #title-main-text {
     text-align: center;
-    font-size: 8vmin;
+    font-size: 9vmin;
     animation: title-text-rotate 0.4s ease 2.8s 1 normal forwards running,
                 title-text-fadein 3.2s ease-in-out 0s 1 normal forwards running;
 }
 #title-sub-text {
     text-align: center;
-    font-size: 2vmin;
+    font-size: 3vmin;
     color: var(--gray);
     animation: title-text-rotate 0.4s ease 2.8s 1 normal forwards running,
                 title-text-fadein 3.2s ease-in-out 0s 1 normal forwards running;
