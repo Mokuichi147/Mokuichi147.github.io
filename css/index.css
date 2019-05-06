@@ -59,8 +59,8 @@ body {
 }
 @keyframes title-circle-edge-scale {
     0% { transform: scale(0, 0); }
-    70% { transform: scale(0, 0); }
-    96% { transform: scale(1.1, 1.1); }
+    50% { transform: scale(0, 0); }
+    95% { transform: scale(1.1, 1.1); }
     100% { transform: scale(1, 1); }
 }
 @keyframes title-circle-edge-rotate {
@@ -75,8 +75,8 @@ body {
     height: 70vmin;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--main) 50%, var(--accent) 50%);
-    animation: title-circle-edge-scale 3s ease-in-out 0s 1 normal forwards running,
-                title-circle-edge-rotate 1s ease-in-out 3s 1 normal forwards running;
+    animation: title-circle-edge-scale 2s ease-in-out 0s 1 normal forwards running,
+                title-circle-edge-rotate 1s ease-in-out 2s 1 normal forwards running;
 }
 #title-circle {
     margin: auto;
@@ -93,22 +93,22 @@ body {
 }
 @keyframes title-text-fadein {
     0% { opacity: 0; }
-    /* about 3.8s~ */
-    90% { opacity: 0; }
+    /* about 2.8s */
+    88% { opacity: 0; }
     100% { opacity: 1; }
 }
 #title-main-text {
     text-align: center;
     font-size: 8vmin;
-    animation: title-text-rotate 0.4s ease 3.8s 1 normal forwards running,
-                title-text-fadein 4.2s ease-in-out 0s 1 normal forwards running;
+    animation: title-text-rotate 0.4s ease 2.8s 1 normal forwards running,
+                title-text-fadein 3.2s ease-in-out 0s 1 normal forwards running;
 }
 #title-sub-text {
     text-align: center;
     font-size: 2vmin;
     color: var(--gray);
-    animation: title-text-rotate 0.4s ease 3.8s 1 normal forwards running,
-                title-text-fadein 4.2s ease-in-out 0s 1 normal forwards running;
+    animation: title-text-rotate 0.4s ease 2.8s 1 normal forwards running,
+                title-text-fadein 3.2s ease-in-out 0s 1 normal forwards running;
 }
 
 /* 自己紹介 */
