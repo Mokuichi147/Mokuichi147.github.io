@@ -54,7 +54,7 @@ body {
 /* タイトル */
 #title {
     height: 100%;
-    padding: calc(50vh - 35vmin) 0px;
+    padding: calc(50vh - 35vmin) 0px calc(80vh - 35vmin);
 }
 @keyframes title-circle-edge-scale {
     0% { transform: scale(0, 0); }
