@@ -78,9 +78,6 @@ body {
     animation: title-circle-edge-scale 3s ease-in-out 0s 1 normal forwards running,
                 title-circle-edge-rotate 1s ease-in-out 3s 1 normal forwards running;
 }
-@keyframes title-circle-translate {
-    100% { transform: translateY(5vmin); }
-}
 #title-circle {
     margin: auto;
     padding: 22.5vmin 0vmin;
@@ -88,8 +85,7 @@ body {
     height: 15vmin;
     border-radius: 50%;
     background-color: var(--back);
-    animation: title-circle-translate 3s step-start 0s 1 normal forwards running,
-                title-circle-rotate 0.5s ease-in-out 4s 1 normal forwards running;
+    transform: translateY(5vmin);
 }
 @keyframes title-text-rotate {
     0% { transform: rotateZ(-90deg); }
