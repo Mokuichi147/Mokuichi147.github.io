@@ -79,9 +79,9 @@ body {
 }
 #title-circle {
     margin: auto;
-    padding: 20vmin 0vmin;
+    padding: 19vmin 0vmin;
     width: 60vmin;
-    height: 20vmin;
+    height: 22vmin;
     border-radius: 50%;
     background-color: var(--back);
     transform: translateY(5vmin);
