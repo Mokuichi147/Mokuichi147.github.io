@@ -79,15 +79,15 @@ body {
 }
 #title-circle {
     margin: auto;
-    padding: 19vmin 0vmin;
+    padding: 20vmin 0vmin;
     width: 60vmin;
-    height: 22vmin;
+    height: 20vmin;
     border-radius: 50%;
     background-color: var(--back);
     transform: translateY(5vmin);
 }
 @keyframes title-text-rotate {
-    0% { transform: rotateZ(-90deg); }
+    0.1% { transform: rotateZ(-90deg); }
     100% { transform: rotateZ(0deg); }
 }
 @keyframes title-text-fadein {
