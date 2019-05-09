@@ -140,29 +140,29 @@ p {
     background-image: var(--Twitter-icon);
     order: 1;
     background-size: contain;
-    width: 6vmin;
-    height: 6vmin;
+    width: 5vmin;
+    height: 5vmin;
 }
 #sns-note {
     background-image: var(--note-icon);
     order: 2;
     background-size: contain;
-    width: 6vmin;
-    height: 6vmin;
+    width: 5vmin;
+    height: 5vmin;
 }
 #sns-github {
     background-image: var(--GitHub-icon);
     order: 3;
     background-size: contain;
-    width: 6vmin;
-    height: 6vmin;
+    width: 5vmin;
+    height: 5vmin;
 }
 #sns-instagram {
     background-image: var(--Instagram-icon);
     order: 4;
     background-size: contain;
-    width: 6vmin;
-    height: 6vmin;
+    width: 5vmin;
+    height: 5vmin;
 }
 
 /* 制作物 */
