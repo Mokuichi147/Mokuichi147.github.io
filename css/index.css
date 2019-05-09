@@ -39,6 +39,10 @@ body {
     font-size: 28px;
 }
 
+p {
+    margin: 0px;
+}
+
 .main-center {
     text-align: center;
     font-size: 8vmin;
@@ -128,7 +132,7 @@ body {
 /* SNSリンク */
 #sns-container {
     width: 40vmin;
-    margin: 3vmin auto 0vmin;
+    margin: 2vmin auto;
     display: flex;
     justify-content: space-between;
 }
