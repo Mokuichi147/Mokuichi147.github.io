@@ -121,7 +121,7 @@ p {
     100% { transform: rotateZ(360deg); }
 }
 #icon-image {
-    margin: 5vmin auto;
+    margin: 4vmin auto;
     background-image: url("../images/2019_Mokuichi.png");
     background-size: contain;
     width: 40vmin;
