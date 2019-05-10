@@ -136,7 +136,8 @@ p {
 }
 #icon-circle {
     fill-opacity: 0;
-    stroke-width: 3vmin;
+    stroke: var(--main);
+    stroke-width: 2vmin;
 }
 
 /* SNSリンク */
