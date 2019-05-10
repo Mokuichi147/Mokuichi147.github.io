@@ -132,6 +132,7 @@ p {
     margin: 4vmin auto;
     width: 40vmin;
     height: 40vmin;
+    display: block;
 }
 
 /* SNSリンク */
