@@ -136,7 +136,7 @@ p {
 }
 #icon-circle {
     fill-opacity: 0;
-    stroke: linear-gradient(135deg, var(--text) 50%, var(--accent) 50%);
+    stroke: var(--text);
     stroke-width: 2vmin;
 }
 
