@@ -134,6 +134,9 @@ p {
     height: 40vmin;
     display: block;
 }
+#icon-circle {
+    stroke-width: 4vmin;
+}
 
 /* SNSリンク */
 #sns-container {
