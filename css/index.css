@@ -128,6 +128,11 @@ p {
     height: 40vmin;
     animation: icon-rotate 10s ease 0s infinite normal forwards running;
 }
+#icon {
+    margin: 4vmin auto;
+    width: 40vmin;
+    height: 40vmin;
+}
 
 /* SNSリンク */
 #sns-container {
