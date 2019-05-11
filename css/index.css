@@ -120,7 +120,7 @@ p {
 }
 @keyframes icon-circle-anim {
     0%,25% {
-        stroke-dasharray: calc(6.2831843 * 47% / 6) calc(6.2831843 * 47% / 6);
+        stroke-dasharray: calc(6.2831843 * 47% / 12) calc(6.2831843 * 47% / 4);
         stroke-dashoffset: calc(6.2831843 * 47% / 3);
     }
     50%,75% {
@@ -128,7 +128,7 @@ p {
         stroke-dashoffset: calc(6.2831843 * 47% / 3 * 0.75);
     }
     100% {
-        stroke-dasharray: calc(6.2831843 * 47% / 6) calc(6.2831843 * 47% / 6);
+        stroke-dasharray: calc(6.2831843 * 47% / 12) calc(6.2831843 * 47% / 4);
         stroke-dashoffset: 0;
     }
 }
@@ -143,7 +143,7 @@ p {
     stroke-linecap: round;
     transform-origin: 50% 50%;
     stroke-dashoffset: 0;
-    stroke-dasharray: calc(6.2831843 * 47% / 6);
+    stroke-dasharray: calc(6.2831843 * 47% / 12) calc(6.2831843 * 47% / 4);
     animation: icon-circle-rotate 3s linear 0s infinite normal forwards,
                 icon-circle-anim 1s ease-in-out 0s infinite normal forwards;
     animation-play-state: paused;
