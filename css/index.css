@@ -123,7 +123,7 @@ p {
     display: block;
 }
 #icon:hover {
-    animation: icon-rotate 0.5s linear 0s infinite normal forwards running;
+    animation: icon-rotate 1s linear 0s infinite normal forwards running;
 }
 #icon-circle {
     fill-opacity: 0;
