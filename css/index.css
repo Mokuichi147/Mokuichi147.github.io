@@ -133,8 +133,8 @@ p {
     }
 }
 @keyframes icon-circle-rotate {
-    0% { transform: rotateZ(0deg); }
-    100% { transform: rotateZ(360deg); }
+    0% { transform: rotateZ(15deg); }
+    100% { transform: rotateZ(375deg); }
 }
 #icon-circle {
     fill-opacity: 0;
@@ -142,6 +142,7 @@ p {
     stroke-width: 2%;
     stroke-linecap: round;
     transform-origin: 50% 50%;
+    transform: rotateZ(15deg);
     stroke-dashoffset: 0;
     stroke-dasharray: calc(6.2831843 * 47% / 12) calc(6.2831843 * 47% / 4);
     animation: icon-circle-rotate 3s linear 0s infinite normal forwards,
