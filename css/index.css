@@ -207,5 +207,10 @@ p {
 
 @media screen and (min-width: 1025px) {
     /* タブレット横、PC */
-    
+    .main-center {
+        font-size: 6vmin;
+    }
+    .sub-center {
+        font-size: 3vmin;
+    }
 }
