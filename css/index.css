@@ -130,7 +130,7 @@ p {
 #icon-circle {
     fill-opacity: 0;
     stroke: var(--gray);
-    stroke-width: 6%;
+    stroke-width: 2%;
     stroke-linecap: round;
     stroke-dashoffset: 0;
     stroke-dasharray: calc(6.2831843 * 47% / 6);
