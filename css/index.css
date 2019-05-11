@@ -115,11 +115,6 @@ p {
 }
 
 /* 自己紹介 */
-#icon-image {
-    margin: auto;
-    width: 40vmin;
-    height: 40vmin;
-}
 #icon {
     margin: 4vmin auto;
     width: 40vmin;
@@ -130,6 +125,11 @@ p {
     fill-opacity: 0;
     stroke: var(--text);
     stroke-width: 2vmin;
+}
+#icon-image {
+    margin: auto;
+    width: 35vmin;
+    height: 35vmin;
 }
 
 /* SNSリンク */
