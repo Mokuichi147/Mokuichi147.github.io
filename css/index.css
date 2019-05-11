@@ -112,24 +112,33 @@ p {
 }
 
 /* 自己紹介 */
+@keyframes icon-rotate {
+    0% { transform: rotateZ(0deg); }
+    100% { transform: rotateZ(360deg); }
+}
 #icon {
     margin: 4vmin auto;
     width: 40vmin;
     height: 40vmin;
     display: block;
+    animation: icon-rotate 3s linear 0s infinite normal forwards;
+    animation-play-state: paused;
+}
+#icon:hover {
+    animation-play-state: running;
 }
 @keyframes icon-circle-anim {
     0%,25% {
         stroke-dasharray: calc(6.2831843 * 47% / 6) calc(6.2831843 * 47% / 6);
-        stroke-dashoffset: 0;
+        stroke-dashoffset: calc(6.2831843 * 47% / 3);
     }
     50%,75% {
         stroke-dasharray: calc(6.2831843 * 47% / 4) calc(6.2831843 * 47% / 12);
-        stroke-dashoffset: calc(6.2831843 * 47% / 3 * 0.25);
+        stroke-dashoffset: calc(6.2831843 * 47% / 3 * 0.75);
     }
     100% {
         stroke-dasharray: calc(6.2831843 * 47% / 6) calc(6.2831843 * 47% / 6);
-        stroke-dashoffset: calc(6.2831843 * 47% / 3);
+        stroke-dashoffset: 0;
     }
 }
 #icon-circle {
@@ -139,10 +148,18 @@ p {
     stroke-linecap: round;
     stroke-dashoffset: 0;
     stroke-dasharray: calc(6.2831843 * 47% / 6);
-    animation: icon-circle-anim 1s ease-in-out 0s infinite reverse forwards;
+    animation: icon-circle-anim 1s ease-in-out 0s infinite normal forwards;
     animation-play-state: paused;
 }
 #icon:hover #icon-circle {
+    animation-play-state: running;
+}
+#icon-image {
+    transform-origin: 50% 50%;
+    animation: icon-rotate 3s linear 0s infinite reverse forwards;
+    animation-play-state: paused;
+}
+#icon:hover #icon-image {
     animation-play-state: running;
 }
 
