@@ -126,6 +126,12 @@ p {
     stroke: var(--text);
     stroke-width: 2vmin;
 }
+#icon-image {
+    width: calc(0px + 35vmin);
+    height: calc(0px + 35vmin);
+    x: calc(0px + 2.5vmin);
+    y: calc(0px + 2.5vmin);
+}
 
 /* SNSリンク */
 #sns-container {
