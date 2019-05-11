@@ -112,19 +112,26 @@ p {
 }
 
 /* 自己紹介 */
+@keyframes icon-rotate {
+    0% { transform: rotateZ(0deg) }
+    100% { transform: rotateZ(360deg) }
+}
 #icon {
     margin: 4vmin auto;
     width: 40vmin;
     height: 40vmin;
     display: block;
 }
+#icon:hover {
+    animation: icon-rotate 0.5s linear 0s infinite normal forwards running;
+}
 #icon-circle {
     fill-opacity: 0;
-    stroke: var(--text);
-    stroke-width: 2vmin;
-    stroke-linecap: round;
+    stroke: var(--gray);
+    stroke-width: 6%;
+    stroke-linecap: square;
     stroke-dashoffset: 0;
-    stroke-dasharray: calc(6.2831843 * 47% / 6);
+    stroke-dasharray: calc(6.2831843 * 47% / 16);
 }
 
 /* SNSリンク */
