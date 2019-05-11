@@ -118,9 +118,19 @@ p {
     height: 40vmin;
     display: block;
 }
-@keyframes icon-circle-rotate {
-    0% { stroke-dashoffset: 0 }
-    100% { stroke-dashoffset: calc(6.2831843 * 47% / 3) }
+@keyframes icon-circle-anim {
+    0%,25% {
+        stroke-dasharray: calc(6.2831843 * 47% / 6) calc(6.2831843 * 47% / 6);
+        stroke-dashoffset: 0;
+    }
+    50%,75% {
+        stroke-dasharray: calc(6.2831843 * 47% / 4) calc(6.2831843 * 47% / 12);
+        stroke-dashoffset: calc(6.2831843 * 47% / 3 * 0.25);
+    }
+    100% {
+        stroke-dasharray: calc(6.2831843 * 47% / 6) calc(6.2831843 * 47% / 6);
+        stroke-dashoffset: calc(6.2831843 * 47% / 3);
+    }
 }
 #icon-circle {
     fill-opacity: 0;
@@ -129,7 +139,7 @@ p {
     stroke-linecap: round;
     stroke-dashoffset: 0;
     stroke-dasharray: calc(6.2831843 * 47% / 6);
-    animation: icon-circle-rotate 1s ease-in-out 0s infinite reverse forwards;
+    animation: icon-circle-anim 1s ease-in-out 0s infinite reverse forwards;
     animation-play-state: paused;
 }
 #icon:hover #icon-circle {
