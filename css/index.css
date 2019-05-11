@@ -129,7 +129,7 @@ p {
     stroke-linecap: round;
     stroke-dashoffset: 0;
     stroke-dasharray: calc(6.2831843 * 47% / 6);
-    animation: icon-circle-rotate 1s ease-in-out 0s infinite normal forwards;
+    animation: icon-circle-rotate 1s ease-in-out 0s infinite reverse forwards;
     animation-play-state: paused;
 }
 #icon:hover #icon-circle {
