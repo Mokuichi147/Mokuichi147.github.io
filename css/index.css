@@ -61,14 +61,12 @@ p {
     padding: calc(50vh - 35vmin) 0px calc(80vh - 35vmin);
 }
 @keyframes title-circle-edge-scale {
-    0% { transform: scale(0, 0); }
-    50% { transform: scale(0, 0); }
+    0%,50% { transform: scale(0, 0); }
     95% { transform: scale(1.1, 1.1); }
     100% { transform: scale(1, 1); }
 }
 @keyframes title-circle-edge-rotate {
-    0% { transform: rotateZ(0deg); }
-    10% { transform: rotateZ(0deg); }
+    0%,10% { transform: rotateZ(0deg); }
     80% { transform: rotateZ(-45deg); }
     100% { transform: rotateZ(0deg); }
 }
@@ -95,9 +93,8 @@ p {
     100% { transform: rotateZ(0deg); }
 }
 @keyframes title-text-fadein {
-    0% { opacity: 0; }
     /* about 2.8s */
-    88% { opacity: 0; }
+    0%,88% { opacity: 0; }
     100% { opacity: 1; }
 }
 #title-main-text {
