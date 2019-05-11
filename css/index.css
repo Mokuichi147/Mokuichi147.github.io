@@ -115,18 +115,10 @@ p {
 }
 
 /* 自己紹介 */
-@keyframes icon-rotate{
-    0% { transform: rotateZ(0deg); }
-    90% { transform: rotateZ(0deg); }
-    100% { transform: rotateZ(360deg); }
-}
 #icon-image {
-    margin: 4vmin auto;
-    background-image: url("../images/2019_Mokuichi.png");
-    background-size: contain;
+    margin: auto;
     width: 40vmin;
     height: 40vmin;
-    animation: icon-rotate 10s ease 0s infinite normal forwards running;
 }
 #icon {
     margin: 4vmin auto;
