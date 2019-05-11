@@ -112,20 +112,11 @@ p {
 }
 
 /* 自己紹介 */
-@keyframes icon-rotate {
-    0% { transform: rotateZ(0deg); }
-    100% { transform: rotateZ(360deg); }
-}
 #icon {
     margin: 4vmin auto;
     width: 40vmin;
     height: 40vmin;
     display: block;
-    animation: icon-rotate 3s linear 0s infinite normal forwards;
-    animation-play-state: paused;
-}
-#icon:hover {
-    animation-play-state: running;
 }
 @keyframes icon-circle-anim {
     0%,25% {
@@ -141,25 +132,23 @@ p {
         stroke-dashoffset: 0;
     }
 }
+@keyframes icon-circle-rotate {
+    0% { transform: rotateZ(0deg); }
+    100% { transform: rotateZ(360deg); }
+}
 #icon-circle {
     fill-opacity: 0;
     stroke: var(--gray);
     stroke-width: 2%;
     stroke-linecap: round;
+    transform-origin: 50% 50%;
     stroke-dashoffset: 0;
     stroke-dasharray: calc(6.2831843 * 47% / 6);
-    animation: icon-circle-anim 1s ease-in-out 0s infinite normal forwards;
+    animation: icon-circle-rotate 3s linear 0s infinite normal forwards,
+                icon-circle-anim 1s ease-in-out 0s infinite normal forwards;
     animation-play-state: paused;
 }
 #icon:hover #icon-circle {
-    animation-play-state: running;
-}
-#icon-image {
-    transform-origin: 50% 50%;
-    animation: icon-rotate 3s linear 0s infinite reverse forwards;
-    animation-play-state: paused;
-}
-#icon:hover #icon-image {
     animation-play-state: running;
 }
 
