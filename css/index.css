@@ -126,10 +126,6 @@ p {
     stroke: var(--text);
     stroke-width: 2vmin;
 }
-#icon-image {
-    width: 35vmin;
-    height: 35vmin;
-}
 
 /* SNSリンク */
 #sns-container {
