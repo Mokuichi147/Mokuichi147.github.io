@@ -119,8 +119,8 @@ p {
     display: block;
 }
 @keyframes icon-circle-rotate {
-    0% { stroke-dashoffset: calc(6.2831843 * 47% * 0) }
-    100% { stroke-dashoffset: calc(6.2831843 * 47% * 1) }
+    0% { stroke-dashoffset: 0 }
+    100% { stroke-dashoffset: calc(6.2831843 * 47% / 3) }
 }
 #icon-circle {
     fill-opacity: 0;
