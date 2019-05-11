@@ -112,28 +112,28 @@ p {
 }
 
 /* 自己紹介 */
-@keyframes icon-rotate {
-    0% { transform: rotateZ(0deg) }
-    100% { transform: rotateZ(360deg) }
-}
 #icon {
     margin: 4vmin auto;
     width: 40vmin;
     height: 40vmin;
     display: block;
-    animation: icon-rotate 1s linear 0s infinite normal forwards;
-    animation-play-state: paused;
 }
-#icon:hover {
-    animation-play-state: running;
+@keyframes icon-circle-rotate {
+    0% { stroke-dashoffset: 0; }
+    100% { stroke-dashoffset: 360; }
 }
 #icon-circle {
     fill-opacity: 0;
     stroke: var(--gray);
     stroke-width: 6%;
-    stroke-linecap: square;
+    stroke-linecap: round;
     stroke-dashoffset: 0;
-    stroke-dasharray: calc(6.2831843 * 47% / 16);
+    stroke-dasharray: calc(6.2831843 * 47% / 6);
+    animation: icon-circle-rotate 1s ease-in-out 0s infinite normal forwards;
+    animation-play-state: paused;
+}
+#icon-circle:hover {
+    animation-play-state: running;
 }
 
 /* SNSリンク */
