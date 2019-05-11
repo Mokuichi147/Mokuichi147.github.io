@@ -119,8 +119,8 @@ p {
     display: block;
 }
 @keyframes icon-circle-rotate {
-    0% { transform: rotateZ(0deg) }
-    100% { transform: rotateZ(360deg) }
+    0% { stroke-dashoffset: calc(6.2831843 * 47% * 0) }
+    100% { stroke-dashoffset: calc(6.2831843 * 47% * 1) }
 }
 #icon-circle {
     fill-opacity: 0;
