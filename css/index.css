@@ -118,6 +118,10 @@ p {
     height: 40vmin;
     display: block;
 }
+@keyframes icon-circle-rotate {
+    0% { transform: rotateZ(15deg); }
+    100% { transform: rotateZ(375deg); }
+}
 @keyframes icon-circle-anim {
     0%,25% {
         stroke-dasharray: calc(6.2831843 * 47% / 12) calc(6.2831843 * 47% / 4);
@@ -131,10 +135,6 @@ p {
         stroke-dasharray: calc(6.2831843 * 47% / 12) calc(6.2831843 * 47% / 4);
         stroke-dashoffset: 0;
     }
-}
-@keyframes icon-circle-rotate {
-    0% { transform: rotateZ(15deg); }
-    100% { transform: rotateZ(375deg); }
 }
 #icon-circle {
     fill-opacity: 0;
