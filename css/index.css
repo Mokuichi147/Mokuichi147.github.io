@@ -76,8 +76,8 @@ p {
     height: 70vmin;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--main) 50%, var(--accent) 50%);
-    animation: title-circle-edge-scale 2s ease-in-out 0s 1 normal forwards running,
-                title-circle-edge-rotate 1s ease-in-out 2s 1 normal forwards running;
+    animation: title-circle-edge-scale 2s ease-in-out 0s 1 normal forwards,
+                title-circle-edge-rotate 1s ease-in-out 2s 1 normal forwards;
 }
 #title-circle {
     margin: auto;
@@ -121,9 +121,11 @@ p {
     width: 40vmin;
     height: 40vmin;
     display: block;
+    animation: icon-rotate 1s linear 0s infinite normal forwards;
+    animation-play-state: paused;
 }
 #icon:hover {
-    animation: icon-rotate 1s linear 0s infinite normal forwards running;
+    animation-play-state: running;
 }
 #icon-circle {
     fill-opacity: 0;
