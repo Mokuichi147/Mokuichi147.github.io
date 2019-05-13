@@ -142,15 +142,15 @@ p {
     stroke-width: 2%;
     stroke-linecap: round;
     transform-origin: 50% 50%;
-    transform: rotateZ(15deg);
     stroke-dashoffset: 0;
     stroke-dasharray: calc(6.2831843 * 47% / 12) calc(6.2831843 * 47% / 4);
     animation: icon-circle-rotate 3s linear 0s infinite normal forwards,
-                icon-circle-anim 1s ease-in-out 0s infinite normal forwards;
-    animation-play-state: paused;
+                icon-circle-anim 2s ease-in-out 0s infinite normal forwards;
+    animation-play-state: running;
 }
 #icon:hover #icon-circle {
-    animation-play-state: running;
+    animation-play-state: paused;
+    stroke: var(--accent);
 }
 
 /* SNSリンク */
