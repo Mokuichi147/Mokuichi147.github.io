@@ -66,28 +66,27 @@ p {
     height: calc(50vh + 9vmin);
     width: 100vw;
 }
-@keyframes title-text-rotate {
-    0.1% { transform: rotateZ(-90deg); }
-    100% { transform: rotateZ(0deg); }
+@keyframes title-text-translate {
+    0% { transform: translateX(20vw); }
+    100% { transform: translateX(0vw); }
 }
 @keyframes title-text-fadein {
-    /* about 2.8s */
-    0%,88% { opacity: 0; }
+    0% { opacity: 0; }
     100% { opacity: 1; }
 }
 #title-main-text {
     text-align: center;
     font-size: 10vmin;
     color: var(--white);
-    animation: title-text-rotate 0.4s ease 2.8s 1 normal forwards running,
-                title-text-fadein 3.2s ease-in-out 0s 1 normal forwards running;
+    animation: title-text-translate 1s ease 1s 1 normal forwards,
+                title-text-fadein 1s ease-in-out 1s 1 normal forwards;
 }
 #title-sub-text {
     text-align: center;
     font-size: 3vmin;
-    color: var(--gray);
-    animation: title-text-rotate 0.4s ease 2.8s 1 normal forwards running,
-                title-text-fadein 3.2s ease-in-out 0s 1 normal forwards running;
+    color: var(--white);
+    animation: title-text-translate 1s ease 1s 1 normal forwards,
+                title-text-fadein 1s ease-in-out 1s 1 normal forwards;
 }
 
 /* 自己紹介 */
