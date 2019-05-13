@@ -142,7 +142,6 @@ p {
     stroke-width: 2%;
     stroke-linecap: round;
     transform-origin: 50% 50%;
-    transform: rotateZ(15deg);
     stroke-dashoffset: 0;
     stroke-dasharray: calc(6.2831843 * 47% / 12) calc(6.2831843 * 47% / 4);
     animation: icon-circle-rotate 3s linear 0s infinite normal forwards,
