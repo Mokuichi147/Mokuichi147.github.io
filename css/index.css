@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC:700');
 
 :root {
-    --white: #F0F0F0;
-    --gray: #b6b6b6;
-    --black: #1A1A1A;
+    --white: #f0f0f0;
+    --gray: #999999;
+    --black: #1a1a1a;
     --main: #6b7d27;
     --accent: #ee4b22;
     --back: var(--white);
