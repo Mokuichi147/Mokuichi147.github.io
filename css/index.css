@@ -89,7 +89,7 @@ p {
 
 /* 自己紹介 */
 #icon {
-    margin: 4vmin auto;
+    margin: 15vh auto 4vmin;
     width: 40vmin;
     height: 40vmin;
     display: block;
