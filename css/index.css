@@ -59,7 +59,7 @@ p {
 #title {
     background-image: url("../images/mountain_lite.svg");
     background-size: cover;
-    background-position: center bottom;
+    background-position: left bottom;
     padding-top: calc(50vh - 9vmin);
     height: calc(50vh + 9vmin);
     width: 100vw;
