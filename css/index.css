@@ -61,12 +61,12 @@ p {
 
 /* タイトル */
 #title {
-    background-image: var(--title-background);
-    background-size: cover;
-    background-position: left bottom;
     padding-top: calc(50vh - 9vmin);
     height: calc(50vh + 9vmin);
     width: 100vw;
+    background-image: var(--title-background);
+    background-size: cover;
+    background-position: left bottom;
 }
 @keyframes title-text-translate {
     0% { transform: translateX(20vw); }
