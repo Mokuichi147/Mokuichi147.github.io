@@ -67,6 +67,9 @@ p {
     background-size: cover;
     background-position: left bottom;
     background-image: var(--title-background);
+    /* スマホでのちらつき対策 */
+    backface-visibility: hidden;
+    transform: translateZ(0);
 }
 @keyframes title-text-translate {
     0% { transform: translateX(20vw); }
