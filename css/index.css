@@ -61,8 +61,8 @@ p {
 
 /* タイトル */
 #title {
-    padding-top: calc(50vh - 9vmin);
-    height: calc(50vh + 9vmin);
+    padding-top: calc(50vh - 15vmin);
+    height: calc(50vh + 15vmin);
     width: 100vw;
     background-size: cover;
     background-position: left bottom;
