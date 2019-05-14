@@ -70,7 +70,8 @@ p {
     /* スマホでのちらつき対策 */
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
 }
 @keyframes title-text-translate {
