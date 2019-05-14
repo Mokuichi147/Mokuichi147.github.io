@@ -71,8 +71,6 @@ p {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 }
 @keyframes title-text-translate {
     0% { transform: translateX(20vw); }
@@ -152,8 +150,6 @@ p {
     background-size: contain;
     width: 5vmin;
     height: 5vmin;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 }
 #sns-note {
     background-image: var(--note-icon);
@@ -161,8 +157,6 @@ p {
     background-size: contain;
     width: 5vmin;
     height: 5vmin;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 }
 #sns-github {
     background-image: var(--GitHub-icon);
@@ -170,8 +164,6 @@ p {
     background-size: contain;
     width: 5vmin;
     height: 5vmin;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 }
 #sns-instagram {
     background-image: var(--Instagram-icon);
@@ -179,8 +171,6 @@ p {
     background-size: contain;
     width: 5vmin;
     height: 5vmin;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 }
 
 /* 制作物 */
