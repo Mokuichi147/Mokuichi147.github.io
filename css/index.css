@@ -9,6 +9,7 @@
     --accent: #ee4b22;
     --back: var(--white);
     --text: var(--black);
+    --title-background: url("../images/mountain_lite.svg");
     --GitHub-icon: url("../images/GitHub_black.png");
     --Instagram-icon: url("../images/Instagram_black.png");
     --Twitter-icon: url("../images/Twitter_black.png");
@@ -24,6 +25,7 @@
     :root {
         --back: var(--black);
         --text: var(--white);
+        --title-background: url("../images/mountain_dark.svg");
         --GitHub-icon: url("../images/GitHub_white.png");
         --Instagram-icon: url("../images/Instagram_white.png");
         --Twitter-icon: url("../images/Twitter_white.png");
@@ -59,7 +61,7 @@ p {
 
 /* タイトル */
 #title {
-    background-image: url("../images/mountain_lite.svg");
+    background-image: var(--title-background);
     background-size: cover;
     background-position: left bottom;
     padding-top: calc(50vh - 9vmin);
