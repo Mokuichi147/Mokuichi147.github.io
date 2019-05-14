@@ -71,6 +71,7 @@ p {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden;
+    -webkit-overflow-scrolling: touch;
 }
 @keyframes title-text-translate {
     0% { transform: translateX(20vw); }
