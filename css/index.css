@@ -184,12 +184,12 @@ p {
     
 }
 
-@media screen and (min-width: 501px) and (max-width: 900px) {
+@media screen and (min-width: 501px) and (max-width: 800px) {
     /* タブレット縦 */
     
 }
 
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 801px) {
     /* タブレット横、PC */
     .sub-center {
         font-size: 3vmin;
