@@ -68,8 +68,9 @@ p {
     background-position: left bottom;
     background-image: var(--title-background);
     /* スマホでのちらつき対策 */
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    transform: translateZ(0);
+    overflow: hidden;
 }
 @keyframes title-text-translate {
     0% { transform: translateX(20vw); }
