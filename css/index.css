@@ -67,7 +67,7 @@ p {
     background-size: cover;
     background-position: left bottom;
     background-image: var(--title-background);
-    /* スマホでのちらつき対策 */
+    /* スマホで最初にサイズがずれる問題の対策 */
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden;
