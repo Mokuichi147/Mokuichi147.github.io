@@ -172,7 +172,7 @@ p {
 /* レスポンシブデザイン */
 @media screen and (orientation: landscape) {
     #title-image {
-        y: calc(100vh - 100vw);
+        transform: translateY(calc(-100vmax + 100vmin));
     }
 }
 
