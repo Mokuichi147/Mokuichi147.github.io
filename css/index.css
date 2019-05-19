@@ -60,9 +60,16 @@ p {
 }
 
 /* タイトル */
-#title {
+#title-box {
     height: 100vh;
     width: 100vw;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+#title {
+    height: 100vmax;
+    width: 100vmax;
     background-size: cover;
     background-position: left bottom;
     /* スマホで最初にサイズがずれる問題の対策 */
@@ -71,8 +78,8 @@ p {
     overflow: hidden;
 }
 #title-image {
-    width: 100vmax;
-    height: 100vmax;
+    width: 100%;
+    height: 100%;
 }
 @keyframes title-text-translate {
     0.1% { transform: translateX(20vw); }
@@ -83,14 +90,12 @@ p {
     100% { opacity: 1; }
 }
 #title-main-text {
-    text-anchor: middle;
     font-size: 10vmin;
     fill: var(--white);
     animation: title-text-translate 1s ease 1s 1 normal forwards,
                 title-text-fadein 2s ease-in-out 0s 1 normal forwards;
 }
 #title-sub-text {
-    text-anchor: middle;
     font-size: 3vmin;
     fill: var(--white);
     animation: title-text-translate 1s ease 1s 1 normal forwards,
