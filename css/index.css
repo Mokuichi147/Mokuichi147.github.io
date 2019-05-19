@@ -61,19 +61,21 @@ p {
 
 /* タイトル */
 #title {
-    padding-top: calc(50vh - 15vmin);
-    height: calc(50vh + 15vmin);
+    height: 100vh;
     width: 100vw;
     background-size: cover;
     background-position: left bottom;
-    background-image: var(--title-background);
-    /* スマホでのちらつき対策 */
+    /* スマホで最初にサイズがずれる問題の対策 */
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden;
 }
+#title-image {
+    width: 100vmax;
+    height: 100vmax;
+}
 @keyframes title-text-translate {
-    0% { transform: translateX(20vw); }
+    0.1% { transform: translateX(20vw); }
     100% { transform: translateX(0vw); }
 }
 @keyframes title-text-fadein {
@@ -81,16 +83,16 @@ p {
     100% { opacity: 1; }
 }
 #title-main-text {
-    text-align: center;
+    text-anchor: middle;
     font-size: 10vmin;
-    color: var(--white);
+    fill: var(--white);
     animation: title-text-translate 1s ease 1s 1 normal forwards,
                 title-text-fadein 2s ease-in-out 0s 1 normal forwards;
 }
 #title-sub-text {
-    text-align: center;
+    text-anchor: middle;
     font-size: 3vmin;
-    color: var(--white);
+    fill: var(--white);
     animation: title-text-translate 1s ease 1s 1 normal forwards,
                 title-text-fadein 2s ease-in-out 0s 1 normal forwards;
 }
@@ -179,6 +181,12 @@ p {
 }
 
 /* レスポンシブデザイン */
+@media screen and (orientation: landscape) {
+    #title-image {
+        y: calc(100vh - 100vw);
+    }
+}
+
 @media screen and (max-width: 500px) {
     /* スマートフォン */
     
