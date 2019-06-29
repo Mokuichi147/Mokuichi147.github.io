@@ -60,16 +60,12 @@ p {
 }
 
 /* タイトル */
-#title-box {
+#title {
     height: 100vh;
     width: 100vw;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    overflow: hidden;
-}
-#title {
-    height: 100vmax;
-    width: 100vmax;
+    background-size: cover;
+    background-position: left bottom;
+    background-image: var(--title-background);
     /* スマホで最初にサイズがずれる問題の対策 */
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -78,17 +74,19 @@ p {
 #title-main-text {
     font-size: 10vmin;
     fill: var(--white);
-    transform: translate(50vw, 50vh);
+    text-align: center;
+    transform: translateY(calc(50vh - 5vmin));
 }
 #title-sub-text {
     font-size: 3vmin;
     fill: var(--white);
-    transform: translate(50vw, 53.5vh);
+    text-align: center;
+    transform: translateY(calc(50vh - 5vmin));
 }
 
 /* 自己紹介 */
 #icon {
-    margin: 15vh auto 4vmin;
+    margin: 20vh auto 4vmin;
     width: 40vmin;
     height: 40vmin;
     display: block;
