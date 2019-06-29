@@ -7,35 +7,11 @@
     --black: #1a1a1a;
     --main: #6b7d27;
     --accent: #ee4b22;
-    --back: var(--white);
-    --text: var(--black);
-    --title-background: url("../images/mountain_lite.svg");
-    --GitHub-icon: url("../images/GitHub_black.png");
-    --Instagram-icon: url("../images/Instagram_black.png");
-    --Twitter-icon: url("../images/Twitter_black.png");
-    --note-icon: url("../images/note_black.png");
-}
-@media (prefers-color-scheme: light) {
-    :root {
-        --back: var(--white);
-        --text: var(--black);
-    }
-}
-@media (prefers-color-scheme: dark) {
-    :root {
-        --back: var(--black);
-        --text: var(--white);
-        --title-background: url("../images/mountain_dark.svg");
-        --GitHub-icon: url("../images/GitHub_white.png");
-        --Instagram-icon: url("../images/Instagram_white.png");
-        --Twitter-icon: url("../images/Twitter_white.png");
-        --note-icon: url("../images/note_white.png");
-    }
 }
 
 body {
-    background-color: var(--back);
-    color: var(--text);
+    background-color: var(--black);
+    color: var(--white);
     margin: 0px;
     padding: 0px;
     font-family: 'Noto Sans SC', sans-serif;
@@ -65,7 +41,7 @@ p {
     width: 100vw;
     background-size: cover;
     background-position: left bottom;
-    background-image: var(--title-background);
+    background-image: url("../images/mountain_dark.svg");
     /* スマホで最初にサイズがずれる問題の対策 */
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -132,30 +108,34 @@ p {
     margin: 2vmin auto;
     display: flex;
     justify-content: space-between;
+    /* スマホで最初にサイズがずれる問題の対策 */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
 }
 #sns-twitter {
-    background-image: var(--Twitter-icon);
+    background-image: url("../images/Twitter_white.png");
     order: 1;
     background-size: contain;
     width: 5vmin;
     height: 5vmin;
 }
 #sns-note {
-    background-image: var(--note-icon);
+    background-image: url("../images/note_white.png");
     order: 2;
     background-size: contain;
     width: 5vmin;
     height: 5vmin;
 }
 #sns-github {
-    background-image: var(--GitHub-icon);
+    background-image: url("../images/GitHub_white.png");
     order: 3;
     background-size: contain;
     width: 5vmin;
     height: 5vmin;
 }
 #sns-instagram {
-    background-image: var(--Instagram-icon);
+    background-image: url("../images/Instagram_white.png");
     order: 4;
     background-size: contain;
     width: 5vmin;
@@ -168,15 +148,9 @@ p {
 }
 
 /* レスポンシブデザイン */
-@media screen and (orientation: landscape) {
-    #title-image {
-        transform: translateY(calc(-100vmax + 100vmin));
-    }
-}
-
 @media screen and (max-width: 500px) {
     /* スマートフォン */
-    
+
 }
 
 @media screen and (min-width: 501px) and (max-width: 800px) {
