@@ -5,8 +5,8 @@
     --white: #f0f0f0;
     --gray: #999999;
     --black: #1a1a1a;
-    --main: #6b7d27;
-    --accent: #ee4b22;
+    --main: #332b77;
+    --accent: #6b7d27;
 }
 
 body {
@@ -87,7 +87,7 @@ p {
 }
 #icon-circle {
     fill-opacity: 0;
-    stroke: var(--gray);
+    stroke: var(--main);
     stroke-width: 2%;
     stroke-linecap: round;
     transform-origin: 50% 50%;
@@ -105,7 +105,7 @@ p {
 /* SNSリンク */
 #sns-container {
     width: 40vmin;
-    margin: 2vmin auto;
+    margin: 2.5vmin auto;
     display: flex;
     justify-content: space-between;
     /* スマホで最初にサイズがずれる問題の対策 */
@@ -117,29 +117,29 @@ p {
     background-image: url("../images/Twitter_white.png");
     order: 1;
     background-size: contain;
-    width: 5vmin;
-    height: 5vmin;
+    width: 4.5vmin;
+    height: 4.5vmin;
 }
 #sns-note {
     background-image: url("../images/note_white.png");
     order: 2;
     background-size: contain;
-    width: 5vmin;
-    height: 5vmin;
+    width: 4.5vmin;
+    height: 4.5vmin;
 }
 #sns-github {
     background-image: url("../images/GitHub_white.png");
     order: 3;
     background-size: contain;
-    width: 5vmin;
-    height: 5vmin;
+    width: 4.5vmin;
+    height: 4.5vmin;
 }
 #sns-instagram {
     background-image: url("../images/Instagram_white.png");
     order: 4;
     background-size: contain;
-    width: 5vmin;
-    height: 5vmin;
+    width: 4.5vmin;
+    height: 4.5vmin;
 }
 
 /* 制作物 */
