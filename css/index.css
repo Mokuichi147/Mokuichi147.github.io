@@ -2,36 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC:700');
 
 :root {
-    --back: #F0F0F0;
-    --text: #1A1A1A;
+    --white: #f0f0f0;
     --gray: #999999;
-    --main: #6b7d27;
-    --accent: #ee4b22;
-    --GitHub-icon: url("../images/GitHub_black.png");
-    --Instagram-icon: url("../images/Instagram_black.png");
-    --Twitter-icon: url("../images/Twitter_black.png");
-    --note-icon: url("../images/note_black.png");
-}
-@media (prefers-color-scheme: light) {
-    :root {
-        --back: #F0F0F0;
-        --text: #1A1A1A;
-    }
-}
-@media (prefers-color-scheme: dark) {
-    :root {
-        --back: #1A1A1A;
-        --text: #F0F0F0;
-        --GitHub-icon: url("../images/GitHub_white.png");
-        --Instagram-icon: url("../images/Instagram_white.png");
-        --Twitter-icon: url("../images/Twitter_white.png");
-        --note-icon: url("../images/note_white.png");
-    }
+    --black: #1a1a1a;
+    --main: #332b77;
+    --accent: #6b7d27;
 }
 
 body {
-    background-color: var(--back);
-    color: var(--text);
+    background-color: var(--black);
+    color: var(--white);
     margin: 0px;
     padding: 0px;
     font-family: 'Noto Sans SC', sans-serif;
@@ -57,63 +37,32 @@ p {
 
 /* タイトル */
 #title {
-    height: 100%;
-    padding: calc(50vh - 35vmin) 0px calc(80vh - 35vmin);
-}
-@keyframes title-circle-edge-scale {
-    0%,50% { transform: scale(0, 0); }
-    95% { transform: scale(1.1, 1.1); }
-    100% { transform: scale(1, 1); }
-}
-@keyframes title-circle-edge-rotate {
-    0%,10% { transform: rotateZ(0deg); }
-    80% { transform: rotateZ(-45deg); }
-    100% { transform: rotateZ(0deg); }
-}
-#title-circle-edge {
-    margin: auto;
-    width: 70vmin;
-    height: 70vmin;
-    border-radius: 50%;
-    background: linear-gradient(135deg, var(--main) 50%, var(--accent) 50%);
-    animation: title-circle-edge-scale 2s ease-in-out 0s 1 normal forwards,
-                title-circle-edge-rotate 1s ease-in-out 2s 1 normal forwards;
-}
-#title-circle {
-    margin: auto;
-    padding: 20vmin 0vmin;
-    width: 60vmin;
-    height: 20vmin;
-    border-radius: 50%;
-    background-color: var(--back);
-    transform: translateY(5vmin);
-}
-@keyframes title-text-rotate {
-    0.1% { transform: rotateZ(-90deg); }
-    100% { transform: rotateZ(0deg); }
-}
-@keyframes title-text-fadein {
-    /* about 2.8s */
-    0%,88% { opacity: 0; }
-    100% { opacity: 1; }
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: left bottom;
+    background-image: url("../images/mountain_dark.svg");
+    /* スマホで最初にサイズがずれる問題の対策 */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
 }
 #title-main-text {
-    text-align: center;
     font-size: 10vmin;
-    animation: title-text-rotate 0.4s ease 2.8s 1 normal forwards running,
-                title-text-fadein 3.2s ease-in-out 0s 1 normal forwards running;
+    fill: var(--white);
+    text-align: center;
+    transform: translateY(calc(50vh - 5vmin));
 }
 #title-sub-text {
-    text-align: center;
     font-size: 3vmin;
-    color: var(--gray);
-    animation: title-text-rotate 0.4s ease 2.8s 1 normal forwards running,
-                title-text-fadein 3.2s ease-in-out 0s 1 normal forwards running;
+    fill: var(--white);
+    text-align: center;
+    transform: translateY(calc(50vh - 5vmin));
 }
 
 /* 自己紹介 */
 #icon {
-    margin: 4vmin auto;
+    margin: 20vh auto 4vmin;
     width: 40vmin;
     height: 40vmin;
     display: block;
@@ -138,14 +87,14 @@ p {
 }
 #icon-circle {
     fill-opacity: 0;
-    stroke: var(--gray);
+    stroke: var(--main);
     stroke-width: 2%;
     stroke-linecap: round;
     transform-origin: 50% 50%;
     stroke-dashoffset: 0;
     stroke-dasharray: calc(6.2831843 * 47% / 12) calc(6.2831843 * 47% / 4);
-    animation: icon-circle-rotate 3s linear 0s infinite normal forwards,
-                icon-circle-anim 2s ease-in-out 0s infinite normal forwards;
+    animation: icon-circle-rotate 2.3s linear 0s infinite normal forwards,
+                icon-circle-anim 1.7s ease-in-out 0s infinite normal forwards;
     animation-play-state: running;
 }
 #icon:hover #icon-circle {
@@ -156,37 +105,41 @@ p {
 /* SNSリンク */
 #sns-container {
     width: 40vmin;
-    margin: 2vmin auto;
+    margin: 2.5vmin auto;
     display: flex;
     justify-content: space-between;
+    /* スマホで最初にサイズがずれる問題の対策 */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
 }
 #sns-twitter {
-    background-image: var(--Twitter-icon);
+    background-image: url("../images/Twitter_white.png");
     order: 1;
     background-size: contain;
-    width: 5vmin;
-    height: 5vmin;
+    width: 4.5vmin;
+    height: 4.5vmin;
 }
 #sns-note {
-    background-image: var(--note-icon);
+    background-image: url("../images/note_white.png");
     order: 2;
     background-size: contain;
-    width: 5vmin;
-    height: 5vmin;
+    width: 4.5vmin;
+    height: 4.5vmin;
 }
 #sns-github {
-    background-image: var(--GitHub-icon);
+    background-image: url("../images/GitHub_white.png");
     order: 3;
     background-size: contain;
-    width: 5vmin;
-    height: 5vmin;
+    width: 4.5vmin;
+    height: 4.5vmin;
 }
 #sns-instagram {
-    background-image: var(--Instagram-icon);
+    background-image: url("../images/Instagram_white.png");
     order: 4;
     background-size: contain;
-    width: 5vmin;
-    height: 5vmin;
+    width: 4.5vmin;
+    height: 4.5vmin;
 }
 
 /* 制作物 */
@@ -197,15 +150,15 @@ p {
 /* レスポンシブデザイン */
 @media screen and (max-width: 500px) {
     /* スマートフォン */
-    
+
 }
 
-@media screen and (min-width: 500px) and (max-width: 1000px) {
+@media screen and (min-width: 501px) and (max-width: 800px) {
     /* タブレット縦 */
     
 }
 
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 801px) {
     /* タブレット横、PC */
     .sub-center {
         font-size: 3vmin;
