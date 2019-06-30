@@ -148,6 +148,9 @@ p {
 #product {
     margin: 30vh 0px;
 }
+.movie {
+    text-align: center;
+}
 
 /* レスポンシブデザイン */
 @media screen and (max-width: 500px) {
