@@ -210,6 +210,39 @@ iframe {
     background-size: 60%;
     background-position: center;
 }
+#avatar2i {
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    transform: rotate(-120deg);
+    background-image: url("../images/2iAvatar.png");
+    background-size: 60%;
+    background-position: center;
+}
+#sfgui {
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    transform: rotate(-120deg);
+    background-image: url("../images/sfgui.png");
+    background-size: 60%;
+    background-position: center;
+}
+#lunchbox {
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    transform: rotate(-120deg);
+    background-image: url("../images/lunchbox.png");
+    background-size: 60%;
+    background-position: center;
+}
 
 /* レスポンシブデザイン */
 @media screen and (max-width: 500px) {
