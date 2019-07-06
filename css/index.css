@@ -148,20 +148,6 @@ p {
 #product {
     margin: 30vh 0px;
 }
-#product-container {
-    margin: 5vmin 0px 0px;
-    display: flex;
-}
-.movie {
-    text-align: center;
-}
-iframe {
-    height: 54vmin;
-    width: 96vmin;
-}
-#arapp5d {
-    order: 1;
-}
 .box {
     width: 100vmin;
     height: 50vmin;
