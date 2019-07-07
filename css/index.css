@@ -149,10 +149,9 @@ p {
     margin: 30vh 0px;
 }
 .box {
-    width: 100vmin;
-    height: 50vmin;
+    width: 50vmin;
+    height: calc(50vmin * 0.8660254);
     margin: 5vmin auto;
-    position: relative;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden;
@@ -160,7 +159,6 @@ p {
 .box-60deg {
     width: 100%;
     height: 100%;
-    position: absolute;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden;
@@ -177,56 +175,41 @@ p {
 #arapp6d {
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    overflow: hidden;
     transform: rotate(-120deg);
     background-image: url("../images/arapp6d.png");
-    background-size: 60%;
+    background-size: cover;
     background-position: center;
 }
 #raspigrasses {
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    overflow: hidden;
     transform: rotate(-120deg);
     background-image: url("../images/smartgrassespi.png");
-    background-size: 60%;
+    background-size: cover;
     background-position: center;
 }
 #avatar2i {
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    overflow: hidden;
     transform: rotate(-120deg);
     background-image: url("../images/2iAvatar.png");
-    background-size: 60%;
+    background-size: cover;
     background-position: center;
 }
 #sfgui {
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    overflow: hidden;
     transform: rotate(-120deg);
     background-image: url("../images/sfgui.png");
-    background-size: 60%;
+    background-size: cover;
     background-position: center;
 }
 #lunchbox {
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    overflow: hidden;
     transform: rotate(-120deg);
     background-image: url("../images/lunchbox.png");
-    background-size: 60%;
+    background-size: cover;
     background-position: center;
 }
 
