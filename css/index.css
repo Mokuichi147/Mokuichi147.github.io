@@ -157,7 +157,7 @@ p {
 .box {
     width: 80vmin;
     height: calc(80vmin * 0.8660254);
-    margin: 5vmin auto;
+    margin: 5vh auto;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden;
