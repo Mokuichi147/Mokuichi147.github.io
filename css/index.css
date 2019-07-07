@@ -243,7 +243,7 @@ p {
     .box {
         width: 30vw;
         height: calc(30vw * 0.8660254);
-        margin: 2.8vw 1.4vw;
+        margin: 2.8vw 1.3vw;
         display: inline-block;
     }
 }
