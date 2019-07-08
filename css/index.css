@@ -119,6 +119,7 @@ p {
     background-image: url("../images/Twitter_white.png");
     order: 1;
     background-size: contain;
+    background-repeat: no-repeat;
     width: 4.5vmin;
     height: 4.5vmin;
 }
@@ -126,6 +127,7 @@ p {
     background-image: url("../images/note_white.png");
     order: 2;
     background-size: contain;
+    background-repeat: no-repeat;
     width: 4.5vmin;
     height: 4.5vmin;
 }
@@ -133,6 +135,7 @@ p {
     background-image: url("../images/GitHub_white.png");
     order: 3;
     background-size: contain;
+    background-repeat: no-repeat;
     width: 4.5vmin;
     height: 4.5vmin;
 }
@@ -140,6 +143,7 @@ p {
     background-image: url("../images/Instagram_white.png");
     order: 4;
     background-size: contain;
+    background-repeat: no-repeat;
     width: 4.5vmin;
     height: 4.5vmin;
 }
