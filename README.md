@@ -11,5 +11,5 @@ https://opensource.org/licenses/mit-license.php
 ## Link
 
 公開サイト(master) https://mokuichi147.github.io  
-デバッグ用サイト(develop) https://mokuichi147.netlify.com  
+デバッグ用サイト(develop) https://mokuichi147-2019.netlify.com  
 旧サイト https://sites.google.com/view/mokuichi147
